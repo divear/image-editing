@@ -1,0 +1,29 @@
+
+#canvas{
+    background-color: rgb(236, 248, 248);
+    margin:1vw 5vw auto;
+    width: 50%;
+    height: 50%;
+}
+h1{
+    background-color: beige;
+}
+
+.fils{
+    margin: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(10, 3fr);
+}
+
+.buttons{
+   background-color: rgb(233, 198, 192);
+   font-size: large;
+}
+
+.lbuttons{
+    background-color: rgb(236, 166, 133);
+    padding: auto;
+    font-size: 2vw;
+
+}

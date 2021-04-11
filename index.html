@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=;, initial-scale=1.0">
+    <title>photo edit</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h3>Choose image:</h3>
+    </div>
+
+    <input type="file" id="inp">
+
+    <canvas id="canvas"></canvas>
+
+    <h1>Filters:</h1>
+
+    <div class="fils">
+
+        <div>
+            <h3>Brightness:</h3> 
+            <input class="brightness" type="range" min="1" max="100">
+        </div>
+
+        <div>
+            <h3>Contrast:</h3> 
+            <input class="contrast" type="range" min="1" max="100">
+        </div>
+
+        <div>
+            <h3>Saturation:</h3> 
+            <input class="saturation" type="range" min="1" max="100">
+        </div>
+
+        <div>
+            <h3>Vibrance:</h3> 
+            <input class="vibrance" type="range" min="1" max="100">
+        </div>
+    </div>
+
+    <h1>Effects:</h1>
+
+    <div class="efs">
+
+        <button class="buttons" class="vintage">Vintage</button>
+        <button class="buttons" class="lomo">Lomo</button>
+        <button class="buttons" class="clar">Clarity</button>
+        <button class="buttons" class="sinc">Sin City</button>
+
+        <button class="buttons" class="pinhole">Pin hole</button>
+        <button class="buttons" class="nost">Nostalgia</button>
+        <button class="buttons" class="herma ">Her majesty</button>
+
+        <button class="rf" class="lbuttons">Remove filters</button>
+        <button aria-colspan="db" class="lbuttons">Download</button>
+    </div>
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/camanjs/4.1.2/caman.full.min.js" integrity="sha512-JjFeUD2H//RHt+DjVf1BTuy1X5ZPtMl0svQ3RopX641DWoSilJ89LsFGq4Sw/6BSBfULqUW/CfnVopV5CfvRXA==" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
